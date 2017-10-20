@@ -1,6 +1,6 @@
-# node-server-boilerplate
+# sawgger 文档系统demo
 
-> Boilerplate for API Server with [koa v2](https://github.com/koajs/koa/tree/v2.x) written in Node.js and ES6.
+> 基于nodejs,koa2,swagger-decorator创建
 
 ## Requirements
 
@@ -12,12 +12,11 @@
 - Watcher and hot-reload: [nodemon](http://nodemon.io/)
 - Build: [babel](http://babeljs.io/)
     + tools: babel-cli, babel-core
-    + presets: babel-preset-es2015-node6, babel-preset-stage-3
+    + presets: babel-preset-es2015-node6, babel-preset-stage-3,babel-plugin-transform-decorators-legacy
 - Deployment: [PM2](https://github.com/Unitech/pm2)
-- Tech Stack: 
+- Tech Stack:
     + [Koa 2](https://github.com/koajs/koa/tree/v2.x)
-    + [koa-bodyparser](https://github.com/koajs/bodyparser/tree/3.x), [koa-logger](https://github.com/koajs/logger/tree/next), [koa-router](https://github.com/alexmingoia/koa-router/tree/master), [kcors](https://github.com/koajs/cors/tree/v2.x)
-    + PostgreSQL: [pg](https://github.com/brianc/node-postgres), [pg-pool](https://github.com/brianc/node-pg-pool)
+    + [koa-router](https://github.com/alexmingoia/koa-router/tree/master)
     + ES7 async/await support
 
 ## Build Setup
